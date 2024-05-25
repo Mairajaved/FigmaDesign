@@ -1,0 +1,132 @@
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-color: #3d9dd61a; /* Updated background color */
+}
+
+.services img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about_content,
+.appdev,
+.uiux {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  align-items: center; /* Align items vertically center */
+}
+
+.left,
+.leftapp,
+.leftui {
+  flex: 1;
+  padding: 0;
+}
+
+.left img,
+.rightapp img,
+.rightui img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px 0 0 0;
+}
+
+.right,
+.rightapp,
+.rightui {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h1,
+.leftapp h1,
+.leftui h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: -1.28px;
+  color: #090c08;
+  margin-bottom: 20px;
+}
+
+.right p,
+.leftapp p,
+.leftui p {
+  font-family: "Kaisei Opti", serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.1px;
+  color: #333;
+}
+
+/* Additional styles */
+.uiux,
+.uiux .rightui,
+.uiux .leftui {
+  background-color: #3d9dd61a; /* Updated background color for UI/UX Designing section */
+}
+
+.about_content,
+.appdev,
+.rightapp,
+.leftapp,
+.right,
+.left {
+  background-color: #fff; /* Default background color for other sections */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about_content,
+  .appdev,
+  .uiux {
+    flex-direction: column;
+  }
+
+  .left,
+  .right,
+  .leftapp,
+  .rightapp,
+  .leftui,
+  .rightui {
+    width: 100%;
+  }
+
+  .right h1,
+  .leftapp h1,
+  .leftui h1 {
+    font-size: 2rem;
+  }
+
+  .right p,
+  .leftapp p,
+  .leftui p {
+    font-size: 1rem;
+  }
+}
+.left img {
+  width: 740px;
+  height: 598px;
+  top: 50px;
+  left: 50px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+}

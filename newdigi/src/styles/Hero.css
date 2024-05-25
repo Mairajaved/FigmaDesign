@@ -1,0 +1,19 @@
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    /* Add some padding or margin if needed */
+    padding: 20px;
+}
+
+.hero img {
+    /* Optional: add some styling to the image */
+    max-width: 100%;
+    height: auto;
+    grid-column: 2;
+}
+
+.hero-text {
+    /* Optional: add some styling to the text section */
+    grid-column: 1;
+}

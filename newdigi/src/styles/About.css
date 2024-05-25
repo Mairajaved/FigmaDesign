@@ -1,0 +1,121 @@
+.about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Remove padding to make image full width */
+    background-color: #f9f9f9;
+}
+
+.section1 img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto;
+    border-radius: 8px;
+}
+
+.about_content {
+    width: 1440px;
+    height: 745px;
+    top: 789px;
+    padding: 74px 50px 73px 50px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.left {
+    flex: 1;
+    padding: 0; /* Remove padding for full-width image */
+}
+
+.left img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto;
+    border-radius: 20px 0 0 0;
+}
+
+.right {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem; /* Adjusted font size */
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -1.28px;
+    color: #090c08;
+    margin-bottom: 20px;
+}
+
+.right p {
+    font-family: "Kaisei Opti", serif;
+    font-size: 1.25rem; /* Adjusted font size */
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.1px;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about_content {
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .right h1 {
+        font-size: 2rem;
+    }
+
+    .right p {
+        font-size: 1rem;
+    }
+}
+
+.card_section {
+    width: 100%;
+    max-width: 1200px; /* Adjusted max-width */
+    height: auto;
+    margin: 20px auto; /* Adjusted margin */
+    padding: 0; /* Remove padding for full-width image */
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; /* Optional: add border radius for rounded corners */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.card_section img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto;
+    border-radius: 8px; /* Optional: add border radius for rounded corners */
+}
+
+.tempcars {
+    background-color: #3d9dd61a;
+    width: 100%;
+    max-width: 1200px; /* Adjusted max-width */
+    height: auto; /* Adjust based on content */
+    margin: 20px auto; /* Adjusted margin */
+    padding: 0; /* Remove padding for full-width image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; /* Optional: add border radius for a more polished look */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.tempcars img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto;
+    border-radius: 8px; /* Optional: add border radius for a more polished look */
+}

@@ -1,0 +1,199 @@
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-image img {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+}
+
+.connect {
+  width: 100%;
+  height: 663px;
+  top: 770px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #3d9dd61a;
+}
+
+.left img {
+  width: 740px;
+  height: 598px;
+  top: 74px;
+  left: 50px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+  margin: 10px;
+}
+
+.right {
+  width: 580px;
+  height: 563px;
+  top: 50px;
+  left: 812px;
+  padding: 30px 0px 0px 0px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.right h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.right input {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.right input[type="text"],
+.right input[type="email"],
+.right input[type="tel"] {
+  width: 250px;
+  height: 49px;
+  padding: 20px 0 0 0;
+  margin-bottom: 10px;
+  border-radius: 30px 0 0 30px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 520px; /* Adjusted width based on your previous code */
+  height: 54px; /* Adjusted height based on your previous code */
+  padding: 10px 0 0 0;
+  margin-top: 10px; /* Added margin-top for spacing */
+  border-radius: 0 30px 30px 0; /* Updated border-radius based on your previous code */
+  background-color: transparent; /* Changed background-color to transparent */
+  border: 1px solid #007bff; /* Changed border color */
+  color: #007bff; /* Changed text color */
+  font-size: 16px; /* Adjusted font size */
+  font-weight: bold; /* Added font weight */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+button:hover {
+  background-color: #007bff; /* Changed hover background color */
+  color: #fff; /* Changed hover text color */
+}
+.lets {
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -1.2799999713897705px;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -1.2799999713897705px;
+  text-align: left;
+  color: #090c08;
+  width: 301px;
+  height: 172px;
+  top: 30px;
+  left: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+.connect {
+  color: #2c3590;
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -1.2799999713897705px;
+  text-align: left;
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 86.4px;
+  letter-spacing: -1.2799999713897705px;
+  text-align: left;
+  width: 301px;
+  height: 172px;
+  top: 30px;
+  left: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+.mapleft p {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  width: 379px;
+  height: 36px;
+  gap: 0px;
+  opacity: 0px;
+  color: #090c08;
+}
+.map {
+  width: 100%;
+  height: 689px;
+  top: 2133px;
+  padding: 125px 50px 124px 50px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #d33333;
+}
+.mapright {
+  width: 574px;
+  height: 287px;
+  top: 1640px;
+  left: 50px;
+  gap: 0px;
+  opacity: 0px;
+}
+h4 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  width: 124px;
+  height: 36px;
+  gap: 0px;
+  opacity: 0px;
+  color: #2c3590;
+}
+.mapleft p {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  width: 608px;
+  height: 87px;
+  gap: 0px;
+  opacity: 0px;
+  color: #333333;
+}
